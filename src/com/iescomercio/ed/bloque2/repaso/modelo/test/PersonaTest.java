@@ -1,5 +1,6 @@
 package com.iescomercio.ed.bloque2.repaso.modelo.test;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -28,13 +29,14 @@ class PersonaTest {
 	}
 
 	@Test
-	void testPersonaStringStringString() {
-		fail("Not yet implemented");
+	void testGetDni() {
+		Persona persona1 = new Persona("16578459F","Gonzalo", "Diaz");
+		assertArrayEquals("16578459F", persona1.getDni());
 	}
 
-	@Test
-	void testGetDni() {
-		fail("Not yet implemented");
+	private void assertArrayEquals(String string, String dni) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Test

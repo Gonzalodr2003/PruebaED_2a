@@ -11,7 +11,7 @@ class CursoTest {
 
 	@Test
 	void testEliminarAlumno() {
-		Integer cantSinEliminar;
+		Integer cantSinEliminar; 
 		Integer cantEliminando;
 		Persona persona1 = new Persona ("15784512F", "Gonzalo", "Diaz");
 		Persona persona2 = new Persona ("15785512F", "Raul", "Romeo");

@@ -33,7 +33,14 @@ class CursoTest {
 
 	@Test
 	void testAniadirAlumno() {
-		fail("Not yet implemented");
+		Integer cantSinAniadir; 
+		Integer cantAniadiendo;
+		Persona persona1 = new Persona ("15784512F", "Gonzalo", "Diaz");
+		Curso curso1 = new Curso();
+		cantSinAniadir=curso1.numeroAlumnos();
+		curso1.aniadirAlumno(persona1);
+		cantAniadiendo=curso1.numeroAlumnos();
+		assertEquals(cantSinAniadir+1, cantAniadiendo);
 	}
 
 	@Test

@@ -31,14 +31,22 @@ class PersonaTest {
 	}
 	
 	@Test
+	void testSetDni() {
+		Persona persona1 = new Persona();
+		try {
+			persona1.setDni("16578459F");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String esperado = "16578459F";
+		assertEquals(esperado, persona1.getDni());
+	}
+	
+	@Test
 	void testGetNombre() {
 		Persona persona1 = new Persona("16578459F","Gonzalo", "Diaz");
 		assertEquals("Gonzalo", persona1.getNombre());
-	}
-
-	@Test
-	void testSetDni() {
-		fail("Not yet implemented");
 	}
 
 	@Test

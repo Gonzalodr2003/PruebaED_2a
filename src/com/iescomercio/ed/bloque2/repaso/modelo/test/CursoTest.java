@@ -29,6 +29,8 @@ class CursoTest {
 		}
 		cantEliminando=curso1.numeroAlumnos();
 		assertEquals(cantSinEliminar-1, cantEliminando);
+		Exception e = assertThrows(Exception.class, ()->curso1.eliminarAlumno("1589J"));
+		assertEquals(e.getMessage(), "El dni no tiene la longitud adecuada");
 	}
 
 	@Test

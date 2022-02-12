@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.iescomercio.ed.bloque2.repaso.modelo","l":"Curso"}]

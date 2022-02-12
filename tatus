@@ -1,0 +1,17 @@
+[33mcommit 09ee161f90a973ae25b3718b31fd428f0ffe280e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Gonzalodr2003 <98487271+Gonzalodr2003@users.noreply.github.com>
+Date:   Sat Feb 12 13:00:31 2022 +0100
+
+    implementacion test GetDni
+
+[33mcommit 600ad96ab7f4a9368b876eb2742e1a587d38e9d3[m
+Author: Gonzalodr2003 <98487271+Gonzalodr2003@users.noreply.github.com>
+Date:   Sat Feb 12 12:50:07 2022 +0100
+
+    implementacion test Persona
+
+[33mcommit 2cda834f169b302b0657ddc659c3c73a064c0e4f[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Gonzalo Diaz Romeo <gonzalodr2003@outlook.es>
+Date:   Sat Feb 12 11:40:27 2022 +0100
+
+    primer commit

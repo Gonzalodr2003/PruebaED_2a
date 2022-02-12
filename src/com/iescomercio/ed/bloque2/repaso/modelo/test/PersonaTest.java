@@ -10,12 +10,7 @@ import com.iescomercio.ed.bloque2.repaso.modelo.Persona;
 class PersonaTest {
 
 	@Test
-	void testHashCode() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testPersona() {
+	void testPersona(){
 		Persona persona1 = new Persona("16578459F","Gonzalo", "Diaz");
 		Persona persona2 = new Persona();
 		try {
@@ -26,17 +21,13 @@ class PersonaTest {
 		}
 		persona2.setNombre("Gonzalo");
 		persona2.setApellido1("Diaz");
+		assertEquals(persona1, persona2);
 	}
 
 	@Test
 	void testGetDni() {
 		Persona persona1 = new Persona("16578459F","Gonzalo", "Diaz");
-		assertArrayEquals("16578459F", persona1.getDni());
-	}
-
-	private void assertArrayEquals(String string, String dni) {
-		// TODO Auto-generated method stub
-		
+		assertEquals("16578459F", persona1.getDni());
 	}
 
 	@Test

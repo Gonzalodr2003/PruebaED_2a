@@ -70,15 +70,4 @@ class PersonaTest {
 		String esperado = "Diaz";
 		assertEquals(esperado, persona1.getApellido1());
 	}
-
-	@Test
-	void testEqualsObject() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testToString() {
-		fail("Not yet implemented");
-	}
-
 }

@@ -69,6 +69,9 @@ class CursoTest {
 
 	@Test
 	void testNumeroAlumnos() {
-		fail("Not yet implemented");
+		Persona persona1 = new Persona ("15784512F", "Gonzalo", "Diaz");
+		Curso curso1=new Curso();
+		curso1.aniadirAlumno(persona1);
+		assertEquals(curso1.numeroAlumnos(), 1);
 	}
 }

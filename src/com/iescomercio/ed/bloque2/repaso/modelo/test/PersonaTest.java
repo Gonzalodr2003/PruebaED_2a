@@ -29,14 +29,15 @@ class PersonaTest {
 		Persona persona1 = new Persona("16578459F","Gonzalo", "Diaz");
 		assertEquals("16578459F", persona1.getDni());
 	}
-
+	
 	@Test
-	void testSetDni() {
-		fail("Not yet implemented");
+	void testGetNombre() {
+		Persona persona1 = new Persona("16578459F","Gonzalo", "Diaz");
+		assertEquals("Gonzalo", persona1.getNombre());
 	}
 
 	@Test
-	void testGetNombre() {
+	void testSetDni() {
 		fail("Not yet implemented");
 	}
 
